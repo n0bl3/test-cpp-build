@@ -2,4 +2,4 @@ language: cpp
 
 before_install:
   - echo 'test before_install'
-  - apt-get install libboost-dev
+  - sudo apt-get install libboost-dev
