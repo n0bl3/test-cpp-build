@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "executing configure"
+echo "This is just to make Travis happy"
+
+exit 0
