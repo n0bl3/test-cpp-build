@@ -6,4 +6,4 @@ before_install:
   - sudo apt-get install libboost-dev -y
 
 install:
-  - ./build.sh
+  - ./check_failure_handling.sh
