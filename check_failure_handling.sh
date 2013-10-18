@@ -2,7 +2,10 @@
 
 echo 'Before executing false'
 
-if [ false ]; then
+false
+true
+
+if [[ $? -ne 0 ]]; then
     echo 'Operation failed'
     exit 1
 fi
