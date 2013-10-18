@@ -2,9 +2,10 @@
 
 echo 'Before executing false'
 
-if [ false ];
+if [ false ]; then
     echo 'Operation failed'
-else
-    echo 'Operation succeeded'
+    exit 1
 fi
 
+echo 'Operation succeeded'
+exit 0
