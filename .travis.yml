@@ -3,7 +3,6 @@ language: cpp
 before_install:
   - echo 'test before_install'
   - lsb_release -a
-  - sudo apt-get install libboost-dev -y
 
 install:
   - ./check_failure_handling.sh
